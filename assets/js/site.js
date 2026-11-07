@@ -2,7 +2,7 @@
 const SITE_CONFIG = {
   // Web3Forms access key: get it free at https://web3forms.com (enter hello@suncyshipyard.com).
   // While it's empty, the form opens the visitor's email app instead.
-  web3formsKey: "",
+  web3formsKey: "53609360-f604-430a-aa69-0b9dc6b9d769",
   // Spool Up's Steam page. While it's empty, the page says the Steam page is coming soon.
   spoolUpSteamUrl: "",
 };
