@@ -378,3 +378,39 @@ a:hover { color: var(--sunrise); }
   gap: 12px 24px;
 }
 .site-footer p { margin: 0; }
+.footer-links { display: flex; flex-wrap: wrap; gap: 8px 24px; }
+
+/* Privacy policy pages */
+.policy { padding-block: 32px 80px; }
+.policy h1 {
+  margin: 0 0 12px;
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: clamp(3rem, 9vw, 5.5rem);
+  line-height: 0.92;
+}
+.policy .updated { margin: 0 0 32px; color: var(--haze); }
+.policy h2 {
+  margin: 48px 0 12px;
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: clamp(1.8rem, 4vw, 2.3rem);
+  line-height: 1.05;
+}
+.policy p,
+.policy li { max-width: var(--measure); }
+.policy ul { margin: 0 0 16px; padding-left: 1.2em; }
+.policy li { margin-bottom: 8px; }
+.policy li::marker { color: var(--sunrise); }
+.policy .lead { font-size: 1.25rem; line-height: 1.5; max-width: 52ch; }
+.policy .contact-card {
+  max-width: var(--measure);
+  margin: 16px 0;
+  padding: 18px 20px;
+  border: 1px solid var(--steel);
+  border-left: 4px solid var(--sunrise);
+  border-radius: 4px;
+  background: var(--hull);
+}
+.policy .contact-card p { margin: 0 0 6px; }
+.policy .contact-card p:last-child { margin: 0; }
